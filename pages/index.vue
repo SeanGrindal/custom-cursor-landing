@@ -80,6 +80,9 @@ export default {}
 		display: flex;
 
 		img {
+			height: auto;
+			max-height: 320px;
+			object-fit: cover;
 			width: calc(33.3333% - 40px);
 			margin-right: 60px;
 
