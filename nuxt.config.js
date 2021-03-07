@@ -1,9 +1,6 @@
 export default {
   ssr: true,
   target: 'static',
-  router: {
-    base: '/custom-cursor-landing/'
-  },
   components: true,
   head: {
     title: 'Custom Cursor JS',
