@@ -63,32 +63,6 @@ export default {
 						this.cursorInstance.enable()
 					}
 				},
-				// {
-				// 	selector: '.chase-inner',
-				// 	focusClass: '',
-				// 	mouseenter: () => {
-				// 		const buttons = document.querySelectorAll('.chase-inner .chase-button')
-				// 		const cursorEl = this.cursorInstance.element
-
-				// 		const top = cursorEl.getBoundingClientRect().top + window.scrollY
-				// 		const left = cursorEl.getBoundingClientRect().left
-
-				// 		cursorEl.classList.add('cursor--run-away')
-				// 		this.cursorInstance.disable().setPosition(left, top)
-
-				// 		// window.requestAnimationFrame(() => {
-				// 		// 	const buttonPos = buttons[0].getBoundingClientRect()
-
-				// 		// 	cursorEl.classList.add('cursor--run-away')
-				// 		// 	this.cursorInstance.setPosition(buttonPos.left, buttonPos.top + window.scrollY)
-				// 		// })
-
-				// 		// console.log(buttonPos.top)
-				// 	},
-				// 	mouseleave: () => {
-				// 		this.cursorInstance.enable()
-				// 	}
-				// },
 				'a',
 				'button'
 			],
@@ -239,14 +213,5 @@ export default {
 			transition: opacity 360ms cubic-bezier(0.23, 1, 0.32, 1);
 		}
 	}
-
-	// &.cursor--run-away {
-	// 	position: absolute;
-
-	// 	.cursor-border {
-	// 		height: 80px;
-	// 		width: 80px;
-	// 	}
-	// }
 }
 </style>
