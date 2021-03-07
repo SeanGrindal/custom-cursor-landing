@@ -47,7 +47,7 @@ export default {
 
 						this.$refs[
 							'cursor-text'
-						].innerHTML = `Our Moon take about 29.5 days to complete one cycle of phases`
+						].innerHTML = `Our Moon takes about 29.5 days to complete one cycle of phases`
 					},
 					mouseleave: () => {
 						this.cursorInstance.unhideTrueCursor()
