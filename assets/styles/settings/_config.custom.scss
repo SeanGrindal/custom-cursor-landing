@@ -1,0 +1,17 @@
+%h1 {
+	font-size: rem(48px);
+	font-weight: 700;
+}
+
+%link {
+	display: inline-block;
+	font-weight: 600;
+	font-size: rem(14px);
+}
+
+// Spacing
+// =============================================================================
+%side-padding {
+	padding-right: 9vw;
+	padding-left: 9vw;
+}
