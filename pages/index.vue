@@ -128,7 +128,7 @@ export default {}
 			content: '';
 			display: block;
 			width: 100%;
-			padding-top: 45%;
+			padding-top: 40%;
 		}
 	}
 }
