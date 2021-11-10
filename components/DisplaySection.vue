@@ -4,6 +4,10 @@
 			<div class="header">
 				{{ header }}
 			</div>
+
+			<div class="description">
+				{{ description }}
+			</div>
 		</div>
 
 		<div class="examples-column">
@@ -16,6 +20,9 @@
 export default {
 	props: {
 		header: {
+			type: String
+		},
+		description: {
 			type: String
 		},
 		reverse: {
@@ -40,8 +47,17 @@ export default {
 	.info-column {
 		@extend %side-padding;
 
-		font-size: rem(24px);
-		margin-bottom: 3vw;
+		.header {
+			font-size: rem(24px);
+			margin-bottom: rem(24px);
+		}
+
+		.description {
+			opacity: 0.8;
+			font-size: rem(16px);
+			margin-bottom: 3vw;
+			max-width: 400px;
+		}
 	}
 
 	.examples-column {

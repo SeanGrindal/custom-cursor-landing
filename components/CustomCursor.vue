@@ -63,6 +63,10 @@ export default {
 						this.cursorInstance.enable()
 					}
 				},
+				{
+					selector: '.override-wrapper',
+					focusClass: 'cursor--no-delay'
+				},
 				'a',
 				'button'
 			],
@@ -101,6 +105,15 @@ export default {
 	&.cursor--off-screen,
 	&.cursor--disabled {
 		opacity: 0;
+	}
+
+	&.cursor--no-delay {
+		transition: opacity 400ms cubic-bezier(0.23, 1, 0.32, 1);
+
+		.cursor-border {
+			height: 24px;
+			width: 24px;
+		}
 	}
 
 	.cursor-border {
