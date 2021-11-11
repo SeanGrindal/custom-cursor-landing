@@ -20,11 +20,13 @@ export default {
 		show: false,
 		texts: [
 			'oops, too slow',
+			'you got this!',
+			'one more try?',
 			'hehe ;)',
 			`so close`,
 			'still nothing?',
-			`disappointing :(`,
-			`one day...`
+			`one day...`,
+			`disappointing :(`
 		],
 		text: 'Click Me',
 		textI: 0,
@@ -106,7 +108,9 @@ export default {
 		}
 
 		.chase-button {
-			border: 1px solid #fff;
+			border: 1px solid rgba(#fff, 0.7);
+			opacity: 0.8;
+			border-radius: 3px;
 			cursor: none;
 			padding: 12px 32px;
 			width: 220px;

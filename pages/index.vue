@@ -119,17 +119,12 @@ export default {}
 
 .override-section {
 	.override-wrapper {
-		background-color: #181111;
+		background-color: #1a1a1a;
 		box-shadow: 0px 1px 15px 4px rgb(0 0 0 / 20%);
 		cursor: none !important;
 		position: relative;
-
-		&::before {
-			content: '';
-			display: block;
-			width: 100%;
-			padding-top: 40%;
-		}
+		height: 70vh;
+		max-height: 1200px;
 	}
 }
 
