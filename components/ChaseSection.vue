@@ -52,8 +52,8 @@ export default {
 			const height = this.$el.offsetHeight
 
 			while (Math.abs(newX - oldX) < width * 0.2 || Math.abs(newY - oldY) < height * 0.2) {
-				newX = Math.random() * width * 0.7 + width * 0.1
-				newY = Math.random() * height * 0.7 + height * 0.1
+				newX = Math.random() * width * 0.7
+				newY = Math.random() * height * 0.7
 			}
 
 			this.pos = [newX, newY]
